@@ -47,6 +47,7 @@ const SignUpForm = () => {
        
     }
 
+
     const handleChange = (event) => {
         const { name, value } = event.target;
 
@@ -103,3 +104,10 @@ const SignUpForm = () => {
 }
 
 export default SignUpForm;
+
+/*
+Attempt to make a sign in component.  Takes an email and a password and tries to verify.  Look inside of firestore docs.  sign in button and sign in with google button.
+
+
+
+*/
